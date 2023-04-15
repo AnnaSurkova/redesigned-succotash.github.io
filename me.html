@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Обо мне</title>
+    <link rel="shortcut icon" href="./img/icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/me.css">
+   </head>
+<body class="root">
+    <div class="all">
+        <header class="header">
+            <a class="logo" href="index.html"><img src="./img/logo.svg" alt="Логотип Университета Иннополиса"></a>
+            <nav>
+                <ul class="menu">
+                    <li class="menu_list">
+                        <a class="menu_link" href="index.html">Главная</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link menu_link_activ" href="students.html"> Студенты</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link" href="about.html"> О курсе</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link" href="contacts.html"> Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn">Войти</button>
+            <div class="popup_container">
+                    <div class="popup_bady"> 
+                        <p class="popup_text">Войти на сайт</p>
+                        <form action="#">
+                            <input class="popup_input" type="text" placeholder="Логин">
+                            <input class="popup_input" type="text" placeholder="Пароль">
+                            <button class="popup_button">Войти</button>
+                        </form>
+                        <div class="popup_close">&#10006;</div>
+                    </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="info">
+                <img class="info__img" src="./img/my_foto.jpg" alt="Моё фото">
+                <div class="info_text">
+                    <h1 class="info__subject">Анна Суркова</h1>
+                <p><span class="info__span">Дата рождения:</span>  03.08.1982г.</p> 
+                <p><span class="info__span">Место рождения:</span> Оренбургская область, <a href="https://ru.wikipedia.org/wiki/%D0%9E%D1%80%D1%81%D0%BA" target="_blank">г.Орск</a></p>
+                </div>
+            </section>
+            <article class="desc">
+                <h2 class="desc__title">Биография</h2>
+                <p class="desc__text">Меня зовут Анна Суркова, я родилась в небольшом городе на Южном Урале, в котором проживаю и по сегодняшний день. В 1999 году окончив школу поступила в Самарскую Государственную Академию на факультет Экономика и управление. В этом же году устроилась на работу агентом в страховую компанию, где отработала 20 лет. Так же я мама двух замечательных детей.</p>
+
+                <h2 class="desc__title">Мои увлечения</h2>
+                <ul>
+                    <li class="desc__link">Психология</li>
+                    <li class="desc__link">Спорт</li>
+                    <li 
+                    class="desc__link">Кулинария</li>
+                </ul>
+            </article>
+        </main>
+    </div>
+    <footer class="footer">
+        <p class="footer_text">2022 &COPY;
+            <a class="footer__link" href="#">учебный центр</a>
+        </p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
